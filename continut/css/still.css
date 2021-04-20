@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+
+html{
+    font-family: 'Zen Dots', cursive;
+    background-image: linear-gradient(to right top, #00ff4c, #fbff05, #fdec01, #ff640a, #ffa601);
+}
+
+nav{
+    text-align: center;
+    background: radial-gradient(circle, rgba(251,255,0,1) 0%, rgba(128,48,15,1) 75%);
+    height: 60px;
+}
+img{
+    width: auto;
+}
+nav a{
+    padding: 10px;
+    border: 1px solid black;
+    margin: 0px 30px ;
+    color: #0b090c; 
+    /* background-color: #b5b80d; */
+    text-decoration-line: none;
+}
+header {
+    background: radial-gradient(circle, rgba(251,255,0,1) 0%, rgba(128,48,15,1) 75%);
+    color: #ccc;
+    text-align: center;
+    border-bottom: 2px solid;
+    border-color: #b5b80d;
+  }
+
+main{
+    box-sizing: border-box;
+    border-bottom: 0.2rem solid;
+    border-top: 0.2rem solid;
+}
+article, aside, footer, header {
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.acasa article {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    width: 70%;
+    /* background-color: rgb(204, 184, 6);*/
+} 
+
+.acasa aside {
+    width: 30%;
+    height: auto;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: rgb(174, 211, 9); 
+  }
+
+a:hover {
+    background-color: #c00000;
+}
+body{
+    height: 100%;
+    min-height: 1000px;
+}
+h1{
+    text-align: center;
+    color: #af3700;
+}
+p{
+    color: #11110b;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6611ee;
+    color: rgb(140, 150, 11);
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    nav a {margin: 0px; padding: 0px; display: block;}
+    nav{height: 100px;}
+  }
+
+table, th, td {
+    border: 2px solid black;
+}
+
+.inregistreaza input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(23, 247, 2);
+    border-radius: 4px;
+    background-color: #ecc206;
+    color: white;
+}
+.inregistreaza fieldset{
+    border:  2px solid #ecc206;
+    width: 20%;
+}
+.verifica fieldset{
+    border:  2px solid #ecc206;
+    width: 20%;
+    margin-left: 40%;
+}
+.cumparaturi fieldset{
+    border:  2px solid #ecc206;
+    width: 98%;
+}
+.cumparaturi input{
+    width: 26%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(23, 247, 2);
+    background-color: #ecc206;
+    color: black;
+}
+.cumparaturi button{
+    background-color: #ecc206;
+    width: 10%;
+    margin-left: 45%;
+    
+}
+
+.verifica input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(23, 247, 2);
+    background-color: #ecc206;
+    color: black;
+}
+
+.canv{
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 60, 0);
+    border-radius: 4px;
+    background-color: #eef104;
+    color: rgb(0, 0, 0);
+}
+
+.inregistreaza textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #ecc206;
+    resize: none;
+}
+.inregistreaza select{
+    width: 100%;
+    background-color: #ecc206;
+}
+
+select {
+    width: 20%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+
+input[type=submit]{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+
+.invat_js input, button{
+    background-color: #ecc206;
+}
+
+.flex-container{
+    flex-wrap: wrap;
+    display: flex;
+}
+.flex-box{
+    display: flexbox;
+}
+.verifica button{
+    width: 100%;
+    height: 40px;
+    font-family: 'Zen Dots', cursive;
+}
+p#verificare{
+    margin-left: 42.5%;
+}
+.tabel_persoane {
+    width: 100%;
+}
+.tabel_persoane tr#primul{
+    background-color: rgb(243, 159, 2);
+}
+.tabel_persoane tr{
+    background-color: gray;
+}
+.tabel_persoane *{
+    border-style: none;
+}

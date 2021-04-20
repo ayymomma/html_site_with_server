@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE persoane [
+<!ELEMENT persoane (persoana)>
+<!ELEMENT persoana (nume,prenume,varsta,adresa,liceu,facultate)>
+<!ELEMENT nume (#PCDATA)>
+<!ELEMENT prenume (#PCDATA)>
+<!ELEMENT varsta (#PCDATA)>
+<!ELEMENT adresa (strada,numar,localitate,judet,tara)>
+<!ELEMENT liceu (#PCDATA)>
+<!ELEMENT facultate (#PCDATA)>
+]>
+
+<persoane>
+    <persoana id="1">
+        <nume>Mircea</nume>
+        <prenume>Adrian</prenume>
+        <varsta>21</varsta>
+        <adresa>
+            <strada>Troitei</strada>
+            <numar>10</numar>
+            <localitate>Margineni</localitate>
+            <judet>Neamt</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <liceu>Colegiul National de Informatica</liceu>
+        <facultate>Facultatea de Automatica si Calculatoare</facultate>
+    </persoana>
+    <persoana id="2">
+        <nume>Cirstea</nume>
+        <prenume>Catalin</prenume>
+        <varsta>21</varsta>
+        <adresa>
+            <strada>Tudor</strada>
+            <numar>10</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <liceu>Colegiul National de Informatica</liceu>
+        <facultate>Facultatea de Automatica si Calculatoare</facultate>
+    </persoana>
+</persoane>
